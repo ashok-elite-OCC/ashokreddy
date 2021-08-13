@@ -1,0 +1,16 @@
+<app-header></app-header>
+<h1 class="text-center p-3 color1">About – Solverminds</h1>
+<h4>About </h4>
+<p>Solverminds is a leading global technology company providing enterprise resource management solutions, consulting and data analytics services to a maritime industry where business meets the technology. The vision of the company is to develop a “Truly” integrated Enterprise Application Suite for the liner shipping company. Deeper domain expertise and advanced technology platforms offer a complete range of technology products for liner operations management, ship management, agency management and advanced analytics.</p>
+<p>Solverminds solutions run on an advanced web platform that not just reduces the overall cost of IT but also ensures superlative user experience, global scalability, and quicker implementation cycles. Powered by Advanced Data Analytics and Optimization engines, our solutions not just automate the business processes but provide the actionable insights, predictive results, help make informed decisions and also prescribe the best actions for optimized business results.</p>
+<h3 class="text-center">Our Mission</h3>
+<h6>Our Mission</h6>
+<p>For our PEOPLE Nurture a holistic learning environment which empowers people from diverse backgrounds to enhance their skills and capabilities</p>
+<h6>With our Clients</h6>
+<p>Dynamically partner our clients in achieving business excellence by delivering innovative and intelligent solutions which adhere to the highest standards of honesty and integrity</p>
+<h3>Angular material chip list </h3>
+<mat-chip-list class="mat-chip-list-stacked">
+    <mat-chip *ngFor="let chip of availableColors" selected="true" [color]="chip.color">
+      {{chip.name}}
+    </mat-chip>
+  </mat-chip-list>

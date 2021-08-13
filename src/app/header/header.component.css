@@ -1,0 +1,12 @@
+.navbar-nav li a {
+    color: white;
+}
+.navbar-nav li{
+    text-align: center;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-nav li .dropdown-menu{
+    color: black;
+}

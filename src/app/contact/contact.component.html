@@ -1,0 +1,35 @@
+<app-header></app-header>
+
+<h1 class="text-center p-3 color1">Contact Us</h1>
+<h3>BRANCH:</h3>
+<P>Chennai Office</P>
+<h4>ADDRESS:</h4>
+<P>Chennai Office
+    SOLVERMINDS Solutions & Technologies Pvt.Ltd.
+    Plot 2B-4, 7th Cross Street, SIPCOT IT Park, OMR,
+    Siruseri, Chennai, Tamil Nadu, India - 603 103.</P>
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let news of listData">
+            <td>{{news.first_name}}</td>
+            <td>{{news.last_name}}</td>
+            <td>{{news.email}}</td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <h3>Angular material slider progress bar </h3>
+      <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+      <h3>Angular material chip list </h3>
+      <mat-chip-list>
+          <mat-chip>home</mat-chip>
+          <mat-chip>about</mat-chip>
+          <mat-chip>contact</mat-chip>
+        </mat-chip-list>
